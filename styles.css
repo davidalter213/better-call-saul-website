@@ -12,3 +12,15 @@ body{
     color: yellow;
     text-decoration: none;
 }
+
+.about {
+    color: white;
+}
+
+.about .flex-container{
+    display: flex;
+}
+
+.about .flex-container img{
+    padding: 20px;
+}
