@@ -15,6 +15,8 @@ body{
 
 .about {
     color: white;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about .flex-container{
@@ -23,4 +25,35 @@ body{
 
 .about .flex-container img{
     padding: 20px;
+}
+
+.characters h1{
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 100;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    margin: 1rem;
+}
+  
+img {
+    max-width: 100%;
+}
+
+.container.space-around {  
+    justify-content: space-around;
+    display: flex;
+}
+
+.container.space-between .mike{
+    
 }
